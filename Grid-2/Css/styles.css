@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    background-color: wheat;
+    display: grid;
+    grid-template-columns: 150px 1fr 150px;
+    grid-template-rows: 150px 1fr 100px;
+    min-height: 100vh;
+}
+
+
+.HEADER{
+    background-color: blue;
+    grid-column: 1/4;
+}
+.MAIN{
+    background-color: coral;
+    grid-column: 2/3;
+}
+.ASIDE{
+    background-color: crimson;
+}
+.FOOTER{
+    background-color: cyan;
+    grid-column: 1/4;
+}
+.ASIDE-LEFT{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+.ASIDE-RIGHT{
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
